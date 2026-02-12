@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Superdesk Documentation](README.md)
-* [api](api/README.md)
-  * [API Reference](api/index.md)
 * [contributing](contributing/README.md)
   * [Contributing to Superdesk](contributing/index.md)
 * [deployment](deployment/README.md)
