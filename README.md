@@ -6,27 +6,27 @@ Welcome to the unified documentation portal for all Superdesk repositories. This
 
 Use these pages as entry points:
 
-1. [Introduction to Superdesk](intro.md)
-2. [Install and deploy](installation.md)
-3. [Quick Start](index-2/quick-start.md)
-4. [Developer Guide](index-2/)
-5. [Contributing to Superdesk](index-1.md)
+1. [Introduction to Superdesk](getting-started/intro.md)
+2. [Install and deploy](getting-started/installation.md)
+3. [Quick Start](getting-started/quick-start.md)
+4. [Developer Guide](developer-guide/index.md)
+5. [Contributing to Superdesk](contributing/index.md)
 
 ### What’s inside
 
 This documentation covers:
 
-* **Getting started**: [Introduction to Superdesk](intro.md), [Install and deploy](installation.md), and [Quick Start](index-2/quick-start.md).
-* **Installation and deployment**: [Install and deploy](installation.md).
-* **Contributing**: [Contributing to Superdesk](index-1.md).
-* **Developer guide**: [Developer Guide](index-2/) (core, client, planning, architecture).
+* **Getting started**: [Introduction to Superdesk](getting-started/intro.md), [Install and deploy](getting-started/installation.md), and [Quick Start](getting-started/quick-start.md).
+* **Installation and deployment**: [Install and deploy](getting-started/installation.md).
+* **Contributing**: [Contributing to Superdesk](contributing/index.md).
+* **Developer guide**: [Developer Guide](developer-guide/index.md) (core, client, planning, architecture).
 
 ### Contributing to Superdesk
 
 Want to contribute to Superdesk itself? Check out:
 
-* [Contributing to Superdesk](index-1.md)
-* [Architecture Overview](index-2/architecture.md)
+* [Contributing to Superdesk](contributing/index.md)
+* [Architecture Overview](developer-guide/architecture.md)
 
 ### License
 

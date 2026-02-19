@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Contribution Workflow
 
 This guide covers the end-to-end workflow for contributing code and documentation across Superdesk repositories.
@@ -34,15 +30,16 @@ git checkout -b fix/issue-description
 
 ### 3. Make Changes
 
-- Write clear, readable code
-- Follow the project's coding style
-- Add tests for your changes
-- Update documentation if needed
-- Keep commits focused and atomic
+* Write clear, readable code
+* Follow the project's coding style
+* Add tests for your changes
+* Update documentation if needed
+* Keep commits focused and atomic
 
 ### 4. Test Your Changes
 
 **Backend (Python):**
+
 ```bash
 # Run tests
 pytest
@@ -56,6 +53,7 @@ black --check .
 ```
 
 **Frontend (TypeScript/React):**
+
 ```bash
 # Run tests
 npm test
@@ -81,13 +79,14 @@ git commit -m "docs: update installation guide"
 ```
 
 Commit types:
-- `feat`: New feature
-- `fix`: Bug fix
-- `docs`: Documentation changes
-- `style`: Code style changes (formatting)
-- `refactor`: Code refactoring
-- `test`: Adding or updating tests
-- `chore`: Maintenance tasks
+
+* `feat`: New feature
+* `fix`: Bug fix
+* `docs`: Documentation changes
+* `style`: Code style changes (formatting)
+* `refactor`: Code refactoring
+* `test`: Adding or updating tests
+* `chore`: Maintenance tasks
 
 ### 6. Push and Create Pull Request
 
@@ -199,27 +198,24 @@ export const ArticleComponent: React.FC<IArticleProps> = ({article, onSave}) => 
 ### General Guidelines
 
 1. **Naming Conventions**
-   - Use descriptive names
-   - Be consistent with existing code
-   - Avoid abbreviations unless common
-
+   * Use descriptive names
+   * Be consistent with existing code
+   * Avoid abbreviations unless common
 2. **Comments**
-   - Write self-documenting code
-   - Comment complex logic
-   - Keep comments up to date
-   - Use docstrings for functions
-
+   * Write self-documenting code
+   * Comment complex logic
+   * Keep comments up to date
+   * Use docstrings for functions
 3. **Testing**
-   - Write tests for new features
-   - Update tests when changing behavior
-   - Aim for good test coverage
-   - Test edge cases
-
+   * Write tests for new features
+   * Update tests when changing behavior
+   * Aim for good test coverage
+   * Test edge cases
 4. **Documentation**
-   - Update README if needed
-   - Document new APIs
-   - Add examples for complex features
-   - Keep docs in sync with code
+   * Update README if needed
+   * Document new APIs
+   * Add examples for complex features
+   * Keep docs in sync with code
 
 ## Testing Guidelines
 

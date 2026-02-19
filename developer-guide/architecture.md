@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Architecture Overview
 
 This document provides a high-level overview of Superdesk's architecture and how its components work together.
@@ -262,8 +258,8 @@ my-extension/
 
 Explore detailed documentation for each component:
 
-* [Superdesk Core (Backend)](index-1.md)
-* [Superdesk Client Core (Frontend)](index.md)
-* [Superdesk Planning](index-2.md)
+* [Superdesk Core (Backend)](core/index.md)
+* [Superdesk Client Core (Frontend)](client/index.md)
+* [Superdesk Planning](planning/index.md)
 
-For deployment information, see the [Deployment Guide](/broken/spaces/iQkljDhdKl4KTB0EU3WI/pages/34gbbhKneSO9Z6T2wbYE).
+For deployment information, see [Install and deploy](../getting-started/installation.md).

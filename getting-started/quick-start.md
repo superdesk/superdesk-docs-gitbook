@@ -1,7 +1,3 @@
----
-sidebar_position: 3
----
-
 # Quick Start
 
 Get up and running with Superdesk in minutes!
@@ -88,9 +84,9 @@ Once logged in, here's a quick overview of the basic workflow:
 
 Now that you have Superdesk running:
 
-1. [**Install and deploy**](../installation.md)
-2. [**Developer Guide**](./)
-3. [**Contributing to Superdesk**](../index-1.md)
+1. [**Install and deploy**](installation.md)
+2. [**Developer Guide**](../developer-guide/index.md)
+3. [**Contributing to Superdesk**](../contributing/index.md)
 
 ## Getting Help
 
