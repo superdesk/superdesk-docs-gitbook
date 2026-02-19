@@ -476,6 +476,6 @@ keyboardManager.bind('ctrl+shift+x', () => {
 
 ## Next Steps
 
-* Explore [Superdesk Core (Backend)](../core/index.md)
-* Learn about [Superdesk Planning](../planning/index.md)
-* Review the [Architecture Overview](../architecture.md)
+* Explore [Superdesk Core (Backend)](index-1.md)
+* Learn about [Superdesk Planning](index-2.md)
+* Review the [Architecture Overview](architecture.md)

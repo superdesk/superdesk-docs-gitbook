@@ -6,11 +6,11 @@ sidebar_position: 2
 
 Use this guide when you want a working Superdesk instance.
 
-If you only want a fast local demo, use [Quick Start](quick-start.md).
+If you only want a fast local demo, use [Quick Start](index-2/quick-start.md).
 
 ### Choose your setup
 
-* **Local demo / evaluation**: [Quick Start](quick-start.md)
+* **Local demo / evaluation**: [Quick Start](index-2/quick-start.md)
 * **Development**: run backend + frontend separately
 * **Production**: Docker Compose + reverse proxy (recommended)
 
@@ -188,5 +188,5 @@ docker-compose exec backend python manage.py db:upgrade
 
 ### Next steps
 
-* For architecture and extensions, go to the [Developer Guide](../developer-guide/index.md).
-* For planning, see [Superdesk Planning](../developer-guide/planning/index.md).
+* For architecture and extensions, go to the [Developer Guide](index-2/).
+* For planning, see [Superdesk Planning](index-2/index-2.md).

@@ -300,12 +300,12 @@ class MyValidator(Validator):
 ## Resources
 
 * [Repository](https://github.com/superdesk/superdesk-core)
-* [API Documentation](../../docs/api/)
+* [API Documentation](../docs/api/)
 * [Flask Documentation](https://flask.palletsprojects.com/)
 * [Eve Documentation](https://docs.python-eve.org/)
 
 ## Next Steps
 
-* Explore [Superdesk Client Core (Frontend)](../client/index.md)
-* Learn about [Superdesk Planning](../planning/index.md)
-* Review the [Architecture Overview](../architecture.md)
+* Explore [Superdesk Client Core (Frontend)](index.md)
+* Learn about [Superdesk Planning](index-2.md)
+* Review the [Architecture Overview](architecture.md)

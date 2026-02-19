@@ -23,7 +23,7 @@ There are many ways to contribute to Superdesk:
 
 Superdesk spans multiple repositories.
 
-Use the canonical list in the [Developer Guide](../developer-guide/index.md).
+Use the canonical list in the [Developer Guide](index-2/).
 
 Documentation lives in [superdesk-docs](https://github.com/superdesk/superdesk-docs).
 
@@ -31,9 +31,9 @@ Documentation lives in [superdesk-docs](https://github.com/superdesk/superdesk-d
 
 Follow the setup guide for the repository you want to contribute to:
 
-* [Superdesk Core (Backend)](../developer-guide/core/index.md)
-* [Superdesk Client Core (Frontend)](../developer-guide/client/index.md)
-* [Superdesk Planning](../developer-guide/planning/index.md)
+* [Superdesk Core (Backend)](index-2/index-1.md)
+* [Superdesk Client Core (Frontend)](index-2/index.md)
+* [Superdesk Planning](index-2/index-2.md)
 
 ### 3. Find an Issue
 
@@ -48,7 +48,7 @@ Look for issues labeled:
 
 For the full workflow (branching, testing, commits, and PR guidance), see:
 
-* [Contribution Workflow](../developer-guide/contributing-workflow.md)
+* [Contribution Workflow](index-2/contributing-workflow.md)
 
 ## Documentation Contributions
 
@@ -102,6 +102,6 @@ Thank you for contributing to Superdesk.
 
 ## Next Steps
 
-* [Developer Guide](../developer-guide/index.md)
-* [Architecture Overview](../developer-guide/architecture.md)
-* [Introduction to Superdesk](../getting-started/intro.md)
+* [Developer Guide](index-2/)
+* [Architecture Overview](index-2/architecture.md)
+* [Introduction to Superdesk](intro.md)

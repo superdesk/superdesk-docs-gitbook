@@ -9,9 +9,9 @@ This section covers Superdesk architecture and development for the core backend,
 ## Start Here
 
 * [Architecture Overview](architecture.md)
-* [Superdesk Core (Backend)](core/index.md)
-* [Superdesk Client Core (Frontend)](client/index.md)
-* [Superdesk Planning](planning/index.md)
+* [Superdesk Core (Backend)](index-1.md)
+* [Superdesk Client Core (Frontend)](index.md)
+* [Superdesk Planning](index-2.md)
 
 ## Source repositories
 

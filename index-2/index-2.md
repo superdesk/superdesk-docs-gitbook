@@ -494,11 +494,11 @@ npm run e2e
 ## Resources
 
 * [Repository](https://github.com/superdesk/superdesk-planning)
-* [Planning User Guide](../../docs/user-guide/) (coming soon)
-* [API Reference](../../docs/api/)
+* [Planning User Guide](../docs/user-guide/) (coming soon)
+* [API Reference](../docs/api/)
 
 ## Next Steps
 
-* Explore [Superdesk Core (Backend)](../core/index.md)
-* Learn about [Superdesk Client Core (Frontend)](../client/index.md)
-* Review the [Architecture Overview](../architecture.md)
+* Explore [Superdesk Core (Backend)](index-1.md)
+* Learn about [Superdesk Client Core (Frontend)](index.md)
+* Review the [Architecture Overview](architecture.md)

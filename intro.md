@@ -34,17 +34,17 @@ Superdesk consists of multiple components working together:
 
 ## Core components
 
-* **Backend**: [Superdesk Core (Backend)](../developer-guide/core/index.md)
-* **Frontend**: [Superdesk Client Core (Frontend)](../developer-guide/client/index.md)
-* **Planning module** (optional): [Superdesk Planning](../developer-guide/planning/index.md)
-* **Architecture**: [Architecture Overview](../developer-guide/architecture.md)
+* **Backend**: [Superdesk Core (Backend)](index-2/index-1.md)
+* **Frontend**: [Superdesk Client Core (Frontend)](index-2/index.md)
+* **Planning module** (optional): [Superdesk Planning](index-2/index-2.md)
+* **Architecture**: [Architecture Overview](index-2/architecture.md)
 
 ## Next Steps
 
 * [**Install and deploy**](installation.md)
-* [**Quick Start**](quick-start.md)
-* [**Developer Guide**](../developer-guide/index.md)
-* [**Contributing to Superdesk**](../contributing/index.md)
+* [**Quick Start**](index-2/quick-start.md)
+* [**Developer Guide**](index-2/)
+* [**Contributing to Superdesk**](index-1.md)
 
 ## Getting Help
 
@@ -54,4 +54,4 @@ Superdesk consists of multiple components working together:
 
 ## Contributing
 
-We welcome contributions. See [Contributing to Superdesk](../contributing/index.md).
+We welcome contributions. See [Contributing to Superdesk](index-1.md).

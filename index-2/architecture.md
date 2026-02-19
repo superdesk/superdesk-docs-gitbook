@@ -262,8 +262,8 @@ my-extension/
 
 Explore detailed documentation for each component:
 
-* [Superdesk Core (Backend)](core/index.md)
-* [Superdesk Client Core (Frontend)](client/index.md)
-* [Superdesk Planning](planning/index.md)
+* [Superdesk Core (Backend)](index-1.md)
+* [Superdesk Client Core (Frontend)](index.md)
+* [Superdesk Planning](index-2.md)
 
-For deployment information, see the [Deployment Guide](../deployment/index.md).
+For deployment information, see the [Deployment Guide](/broken/spaces/iQkljDhdKl4KTB0EU3WI/pages/34gbbhKneSO9Z6T2wbYE).
