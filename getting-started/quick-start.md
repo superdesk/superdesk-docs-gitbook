@@ -21,13 +21,14 @@ docker-compose exec backend python manage.py app:initialize_data
 docker-compose exec backend python manage.py users:create -u admin -p admin -e admin@example.com --admin
 ```
 
-:::warning Security Note
+{% hint style="warning" %}
 The `admin` / `admin` credentials shown above are for **local testing only**. For any non-local or production deployment, use a strong, unique password for the admin user and never keep default credentials. If you used these example credentials temporarily, change the admin password immediately after the first login.
-:::
+{% endhint %}
 
 Access Superdesk at `http://localhost:9000` and log in with:
-- **Username:** admin
-- **Password:** admin (change immediately for non-local environments)
+
+* **Username:** admin
+* **Password:** admin (change immediately for non-local environments)
 
 ## Basic Workflow
 
@@ -57,148 +58,45 @@ Once logged in, here's a quick overview of the basic workflow:
 ## Key Features to Explore
 
 ### Content Management
-- Create articles, photos, videos, and multimedia packages
-- Rich text editing with formatting options
-- Media library for managing assets
-- Metadata and tagging system
+
+* Create articles, photos, videos, and multimedia packages
+* Rich text editing with formatting options
+* Media library for managing assets
+* Metadata and tagging system
 
 ### Workflow
-- Desk-based organization
-- Stage-based workflow (e.g., Working, Submitted, Published)
-- Assignment and task management
-- Publishing queues
+
+* Desk-based organization
+* Stage-based workflow (e.g., Working, Submitted, Published)
+* Assignment and task management
+* Publishing queues
 
 ### Search and Filtering
-- Advanced search with multiple criteria
-- Saved searches for quick access
-- Filter by desk, stage, type, date, and more
+
+* Advanced search with multiple criteria
+* Saved searches for quick access
+* Filter by desk, stage, type, date, and more
 
 ### Planning (if installed)
-- Event management
-- Planning items for coverage
-- Assignment workflow
-- Calendar views
 
-## Common Tasks
-
-### Creating a New User
-
-```bash
-# Using Docker
-docker-compose exec backend python manage.py users:create \
-  -u username \
-  -p password \
-  -e email@example.com
-
-# Or in development
-python manage.py users:create -u username -p password -e email@example.com
-```
-
-### Managing Desks
-
-1. Navigate to **Settings** → **Desks**
-2. Click **"+ Add Desk"**
-3. Configure desk name, working stages, and permissions
-4. Assign users to the desk
-
-### Configuring Publishing Destinations
-
-1. Go to **Settings** → **Publish**
-2. Add subscribers and destinations
-3. Configure output formats (NINJS, NewsML, etc.)
-4. Set up transmit configurations
-
-## Development Quick Start
-
-For developers wanting to customize or extend Superdesk:
-
-### Backend Development
-
-```bash
-# Clone and set up
-git clone https://github.com/superdesk/superdesk-core.git
-cd superdesk-core
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-# Run in development mode
-python manage.py app:run --reload
-```
-
-### Frontend Development
-
-```bash
-# Clone and set up
-git clone https://github.com/superdesk/superdesk-client-core.git
-cd superdesk-client-core
-npm install
-
-# Run development server with hot reload
-npm start
-```
-
-### Creating a Plugin
-
-```bash
-# Create a new backend plugin
-cd superdesk-core/apps
-mkdir my_plugin
-# Create __init__.py and implement your service
-
-# Create a new frontend extension
-cd superdesk-client-core/scripts/extensions
-mkdir my-extension
-# Create index.tsx and implement your React component
-```
-
-## Configuration Tips
-
-### Essential Settings
-
-Edit your `settings.py` (backend) or environment variables:
-
-```python
-# Backend (settings.py)
-MONGO_URI = 'mongodb://localhost/superdesk'
-ELASTICSEARCH_URL = 'http://localhost:9200'
-SECRET_KEY = 'your-secret-key-change-this'
-
-# Enable features
-PLANNING_MODULE_ENABLED = True
-PUBLISH_ASSOCIATED_ITEMS = True
-```
-
-### Frontend Configuration
-
-Create a `superdesk.config.js`:
-
-```javascript
-module.exports = {
-    apps: ['superdesk-core'],
-    defaultRoute: '/workspace/monitoring',
-    langOverride: {
-        'en': {
-            'Dashboard': 'My Dashboard'
-        }
-    }
-};
-```
+* Event management
+* Planning items for coverage
+* Assignment workflow
+* Calendar views
 
 ## Next Steps
 
 Now that you have Superdesk running:
 
-1. **[User Guide](/docs/user-guide)** - Learn how to use all features
-2. **[Developer Guide](/docs/developer-guide/architecture)** - Understand the architecture
-3. **[API Reference](/docs/api)** - Explore the REST API
-4. **[Contributing](/docs/contributing)** - Help improve Superdesk
+1. [**Install and deploy**](installation.md)
+2. [**Developer Guide**](../developer-guide/index.md)
+3. [**Contributing to Superdesk**](../contributing/index.md)
 
 ## Getting Help
 
-- **Documentation:** Browse this documentation site
-- **GitHub Issues:** Report bugs on the specific repository
-- **Community:** Join discussions on GitHub
+* **Documentation:** Browse this documentation site
+* **GitHub Issues:** Report bugs on the specific repository
+* **Community:** Join discussions on GitHub
 
 ## Clean Up (Docker)
 

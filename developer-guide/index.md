@@ -8,42 +8,15 @@ This section covers Superdesk architecture and development for the core backend,
 
 ## Start Here
 
-- [Architecture Overview](/docs/developer-guide/architecture)
-- [Superdesk Core (Backend)](/docs/developer-guide/core)
-- [Superdesk Client Core (Frontend)](/docs/developer-guide/client)
-- [Superdesk Planning](/docs/developer-guide/planning)
+* [Architecture Overview](architecture.md)
+* [Superdesk Core (Backend)](core/index.md)
+* [Superdesk Client Core (Frontend)](client/index.md)
+* [Superdesk Planning](planning/index.md)
 
-## Key Repositories
+## Source repositories
 
-Superdesk is organized into several key repositories:
-
-### [superdesk-core](https://github.com/superdesk/superdesk-core)
-The Python/Flask backend providing the REST API, business logic, and data persistence. This is the core server component that handles:
-- Content management and storage
-- User authentication and authorization
-- Workflow management
-- Publishing and distribution
-- Media handling
-
-### [superdesk-client-core](https://github.com/superdesk/superdesk-client-core)
-The TypeScript/React frontend providing the user interface. This includes:
-- Rich text editor
-- Desk and workspace management
-- Search and filtering
-- Content preview and publishing
-- User management interface
-
-### [superdesk-planning](https://github.com/superdesk/superdesk-planning)
-Planning and assignments module that extends Superdesk with:
-- Event management
-- Planning items
-- Assignment workflows
-- Coverage tracking
-- Calendar views
-
-### [superdesk](https://github.com/superdesk/superdesk)
-The main deployment repository that brings together all components:
-- Docker configurations
-- Deployment scripts
-- Environment setup
-- Integration configurations
+* [superdesk-core](https://github.com/superdesk/superdesk-core) (backend)
+* [superdesk-client-core](https://github.com/superdesk/superdesk-client-core) (frontend)
+* [superdesk-planning](https://github.com/superdesk/superdesk-planning) (planning module)
+* [superdesk](https://github.com/superdesk/superdesk) (deployment)
+* [superdesk-docs](https://github.com/superdesk/superdesk-docs) (documentation)

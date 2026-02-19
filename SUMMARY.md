@@ -17,6 +17,6 @@
   * [planning](developer-guide/planning/README.md)
     * [Superdesk Planning](developer-guide/planning/index.md)
 * [getting-started](getting-started/README.md)
-  * [Installation Guide](getting-started/installation.md)
   * [Introduction to Superdesk](getting-started/intro.md)
   * [Quick Start](getting-started/quick-start.md)
+  * [Install and deploy](getting-started/installation.md)

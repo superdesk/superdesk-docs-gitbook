@@ -11,23 +11,24 @@ The Superdesk Planning module adds event management, planning, and assignment ca
 Repository: [superdesk/superdesk-planning](https://github.com/superdesk/superdesk-planning)
 
 The Planning module extends Superdesk with:
-- **Events**: Manage news events with location, contacts, and files
-- **Planning Items**: Plan coverage for events
-- **Assignments**: Assign coverage to journalists
-- **Calendars**: View events and planning in calendar format
-- **Coverage**: Track coverage status and deliverables
+
+* **Events**: Manage news events with location, contacts, and files
+* **Planning Items**: Plan coverage for events
+* **Assignments**: Assign coverage to journalists
+* **Calendars**: View events and planning in calendar format
+* **Coverage**: Track coverage status and deliverables
 
 ## Key Features
 
-- Event management with recurring events
-- Planning workflow with approval states
-- Assignment workflow and tracking
-- Calendar views (day, week, month)
-- Coverage tracking and status updates
-- Integration with content creation
-- Event templates and categories
-- Contact management
-- Location database
+* Event management with recurring events
+* Planning workflow with approval states
+* Assignment workflow and tracking
+* Calendar views (day, week, month)
+* Coverage tracking and status updates
+* Integration with content creation
+* Event templates and categories
+* Contact management
+* Location database
 
 ## Architecture
 
@@ -435,29 +436,25 @@ PLANNING_CUSTOM_CONTENT_TYPES = [
 ## Best Practices
 
 1. **Event Management**
-   - Use templates for recurring event types
-   - Fill in all relevant metadata
-   - Link related events when appropriate
-
+   * Use templates for recurring event types
+   * Fill in all relevant metadata
+   * Link related events when appropriate
 2. **Planning Workflow**
-   - Create planning items before events occur
-   - Assign coverage with realistic deadlines
-   - Update coverage status regularly
-
+   * Create planning items before events occur
+   * Assign coverage with realistic deadlines
+   * Update coverage status regularly
 3. **Assignments**
-   - Assign to specific users when possible
-   - Provide clear instructions in coverage details
-   - Monitor assignment status
-
+   * Assign to specific users when possible
+   * Provide clear instructions in coverage details
+   * Monitor assignment status
 4. **Calendar Usage**
-   - Use different views for different planning horizons
-   - Color-code events by type or importance
-   - Set up recurring events properly
-
+   * Use different views for different planning horizons
+   * Color-code events by type or importance
+   * Set up recurring events properly
 5. **Integration**
-   - Link planning to content creation
-   - Use sluglines consistently
-   - Track coverage completion
+   * Link planning to content creation
+   * Use sluglines consistently
+   * Track coverage completion
 
 ## Testing
 
@@ -478,30 +475,30 @@ npm run e2e
 
 ### Events Not Appearing
 
-- Check that `PLANNING_MODULE_ENABLED = True`
-- Verify event state is not 'cancelled'
-- Check date range filters
+* Check that `PLANNING_MODULE_ENABLED = True`
+* Verify event state is not 'cancelled'
+* Check date range filters
 
 ### Assignments Not Creating Content
 
-- Verify desk permissions
-- Check assignment state transitions
-- Ensure content profile is configured
+* Verify desk permissions
+* Check assignment state transitions
+* Ensure content profile is configured
 
 ### Calendar Performance
 
-- Limit date range for large datasets
-- Use pagination for event lists
-- Cache calendar data appropriately
+* Limit date range for large datasets
+* Use pagination for event lists
+* Cache calendar data appropriately
 
 ## Resources
 
-- [Repository](https://github.com/superdesk/superdesk-planning)
-- [Planning User Guide](/docs/user-guide) (coming soon)
-- [API Reference](/docs/api)
+* [Repository](https://github.com/superdesk/superdesk-planning)
+* [Planning User Guide](../../docs/user-guide/) (coming soon)
+* [API Reference](../../docs/api/)
 
 ## Next Steps
 
-- Explore [Core Backend](/docs/developer-guide/core)
-- Learn about [Client Frontend](/docs/developer-guide/client)
-- Review [Architecture Overview](/docs/developer-guide/architecture)
+* Explore [Superdesk Core (Backend)](../core/index.md)
+* Learn about [Superdesk Client Core (Frontend)](../client/index.md)
+* Review the [Architecture Overview](../architecture.md)

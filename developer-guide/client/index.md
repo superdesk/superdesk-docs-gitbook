@@ -11,23 +11,24 @@ The Superdesk Client Core is the TypeScript/React frontend that provides the use
 Repository: [superdesk/superdesk-client-core](https://github.com/superdesk/superdesk-client-core)
 
 Superdesk Client is built on:
-- **React 18**: Modern UI framework
-- **TypeScript**: Type-safe JavaScript
-- **Redux**: State management
-- **RxJS**: Reactive programming
-- **Webpack**: Module bundling
-- **SCSS**: Styling
+
+* **React 18**: Modern UI framework
+* **TypeScript**: Type-safe JavaScript
+* **Redux**: State management
+* **RxJS**: Reactive programming
+* **Webpack**: Module bundling
+* **SCSS**: Styling
 
 ## Key Features
 
-- Rich text editor with formatting
-- Drag-and-drop interface
-- Real-time content updates
-- Extensible architecture
-- Responsive design
-- Multi-language support
-- Keyboard shortcuts
-- Advanced search and filtering
+* Rich text editor with formatting
+* Drag-and-drop interface
+* Real-time content updates
+* Extensible architecture
+* Responsive design
+* Multi-language support
+* Keyboard shortcuts
+* Advanced search and filtering
 
 ## Architecture
 
@@ -128,9 +129,9 @@ export const getArticleById = (state, id) =>
 
 ### Prerequisites
 
-- Node.js 16.x or higher
-- npm 8.x or higher
-- Backend API running (superdesk-core)
+* Node.js 16.x or higher
+* npm 8.x or higher
+* Backend API running (superdesk-core)
 
 ### Installation
 
@@ -151,11 +152,12 @@ npm start
 ### Development Server
 
 The development server includes:
-- Hot module replacement (HMR)
-- TypeScript compilation
-- SCSS compilation
-- Automatic browser refresh
-- Source maps
+
+* Hot module replacement (HMR)
+* TypeScript compilation
+* SCSS compilation
+* Automatic browser refresh
+* Source maps
 
 ## Creating an Extension
 
@@ -450,11 +452,12 @@ const searchArticles = (query: string) => {
 ## Keyboard Shortcuts
 
 Common keyboard shortcuts:
-- `Ctrl/Cmd + S`: Save
-- `Ctrl/Cmd + Shift + E`: Edit
-- `Ctrl/Cmd + Shift + U`: Publish
-- `/`: Focus search
-- `Esc`: Close modals
+
+* `Ctrl/Cmd + S`: Save
+* `Ctrl/Cmd + Shift + E`: Edit
+* `Ctrl/Cmd + Shift + U`: Publish
+* `/`: Focus search
+* `Esc`: Close modals
 
 Register custom shortcuts:
 
@@ -466,13 +469,13 @@ keyboardManager.bind('ctrl+shift+x', () => {
 
 ## Resources
 
-- [Repository](https://github.com/superdesk/superdesk-client-core)
-- [React Documentation](https://react.dev/)
-- [TypeScript Documentation](https://www.typescriptlang.org/)
-- [Redux Documentation](https://redux.js.org/)
+* [Repository](https://github.com/superdesk/superdesk-client-core)
+* [React Documentation](https://react.dev/)
+* [TypeScript Documentation](https://www.typescriptlang.org/)
+* [Redux Documentation](https://redux.js.org/)
 
 ## Next Steps
 
-- Explore the [Core Backend](/docs/developer-guide/core)
-- Learn about [Planning Module](/docs/developer-guide/planning)
-- Check the [Architecture Overview](/docs/developer-guide/architecture)
+* Explore [Superdesk Core (Backend)](../core/index.md)
+* Learn about [Superdesk Planning](../planning/index.md)
+* Review the [Architecture Overview](../architecture.md)

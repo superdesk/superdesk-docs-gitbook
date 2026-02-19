@@ -11,22 +11,23 @@ The Superdesk Core is the Python/Flask backend that provides the REST API and bu
 Repository: [superdesk/superdesk-core](https://github.com/superdesk/superdesk-core)
 
 Superdesk Core is built on:
-- **Flask**: Lightweight web framework
-- **Eve**: REST API framework
-- **Python 3.8+**: Modern Python
-- **MongoDB**: Primary database
-- **Elasticsearch**: Search engine
-- **Celery**: Background tasks
+
+* **Flask**: Lightweight web framework
+* **Eve**: REST API framework
+* **Python 3.8+**: Modern Python
+* **MongoDB**: Primary database
+* **Elasticsearch**: Search engine
+* **Celery**: Background tasks
 
 ## Key Features
 
-- RESTful API with HATEOAS
-- Extensible app architecture
-- Workflow and state management
-- Publishing and distribution
-- Media processing and storage
-- User authentication and authorization
-- Real-time notifications via WebSockets
+* RESTful API with HATEOAS
+* Extensible app architecture
+* Workflow and state management
+* Publishing and distribution
+* Media processing and storage
+* User authentication and authorization
+* Real-time notifications via WebSockets
 
 ## Architecture
 
@@ -92,11 +93,11 @@ class ArticlesService(BaseService):
 
 ### Prerequisites
 
-- Python 3.8 or higher
-- MongoDB 4.4+
-- Elasticsearch 7.x
-- Redis 6.x
-- Virtual environment
+* Python 3.8 or higher
+* MongoDB 4.4+
+* Elasticsearch 7.x
+* Redis 6.x
+* Virtual environment
 
 ### Installation
 
@@ -298,13 +299,13 @@ class MyValidator(Validator):
 
 ## Resources
 
-- [Repository](https://github.com/superdesk/superdesk-core)
-- [API Documentation](/docs/api)
-- [Flask Documentation](https://flask.palletsprojects.com/)
-- [Eve Documentation](https://docs.python-eve.org/)
+* [Repository](https://github.com/superdesk/superdesk-core)
+* [API Documentation](../../docs/api/)
+* [Flask Documentation](https://flask.palletsprojects.com/)
+* [Eve Documentation](https://docs.python-eve.org/)
 
 ## Next Steps
 
-- Explore the [Client Documentation](/docs/developer-guide/client)
-- Learn about [Planning Module](/docs/developer-guide/planning)
-- Check the [API Reference](/docs/api)
+* Explore [Superdesk Client Core (Frontend)](../client/index.md)
+* Learn about [Superdesk Planning](../planning/index.md)
+* Review the [Architecture Overview](../architecture.md)
