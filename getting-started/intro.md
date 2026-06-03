@@ -30,16 +30,16 @@ Superdesk consists of multiple components working together:
 
 ## Core components
 
-* **Backend**: [Superdesk Core (Backend)](../developer-guide/core/index.md)
-* **Frontend**: [Superdesk Client Core (Frontend)](../developer-guide/client/index.md)
-* **Planning module** (optional): [Superdesk Planning](../developer-guide/planning/index.md)
-* **Architecture**: [Architecture Overview](../developer-guide/architecture.md)
+* **Backend**: [Superdesk Core (Backend)](/broken/spaces/iQkljDhdKl4KTB0EU3WI/pages/rhbW6vEzphxtXnh15CPN)
+* **Frontend**: [Superdesk Client Core (Frontend)](/broken/spaces/iQkljDhdKl4KTB0EU3WI/pages/KUfLO2S6Bf5SQu4ER3Hh)
+* **Planning module** (optional): [Superdesk Planning](/broken/spaces/iQkljDhdKl4KTB0EU3WI/pages/ZwihAf6RxbAJscL0lPVr)
+* **Architecture**: [Architecture Overview](/broken/spaces/iQkljDhdKl4KTB0EU3WI/pages/f368d1814bc2e57d3c73bf434486881ed50ea82f)
 
 ## Next Steps
 
 * [**Install and deploy**](installation.md)
-* [**Quick Start**](quick-start.md)
-* [**Developer Guide**](../developer-guide/index.md)
+* [**Quick Start**](/broken/spaces/iQkljDhdKl4KTB0EU3WI/pages/LPDze84CPGj78Z1hu3GT)
+* [**Developer Guide**](/broken/spaces/iQkljDhdKl4KTB0EU3WI/pages/n8TCq6Twx0douCtHFqb6)
 * [**Contributing to Superdesk**](../contributing/index.md)
 
 ## Getting Help
