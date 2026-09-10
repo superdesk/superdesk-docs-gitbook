@@ -1,6 +1,6 @@
 # Superdesk Documentation
 
-Welcome to the unified documentation portal for all Superdesk repositories. This site provides comprehensive documentation for Superdesk, an open-source headless CMS designed for newsrooms.
+Welcome to the unified documentation portal for all Superdesk repositories. This site provides comprehensive documentation for [Superdesk](https://superdesk.org/), an open-source headless CMS designed for newsrooms, developed by [Sourcefabric](https://www.sourcefabric.org/).
 
 ### Start here
 
